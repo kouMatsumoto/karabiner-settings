@@ -5,8 +5,14 @@ karabiner settings for my macOS
 1. install karabiner
 2. set config
 
+backup before update
+
 ```zsh
 cp ~/.config/karabiner/karabiner.json ~/.config/karabiner/karabiner.org.json
-cp ./karabiner.json ~/.config/karabiner/karabiner.json
+```
 
+update with new settings
+
+```zsh
+cp ./karabiner.json ~/.config/karabiner/karabiner.json
 ```

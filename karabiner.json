@@ -22,9 +22,9 @@
                 "conditions": [
                   {
                     "bundle_identifiers": [
-                      "^com\\.jetbrains\\.intellij$"
+                      "^com\\.jetbrains\\.WebStorm$"
                     ],
-                    "type": "frontmost_application_unless"
+                    "type": "frontmost_application_if"
                   }
                 ],
                 "from": {
@@ -41,9 +41,9 @@
                 "conditions": [
                   {
                     "bundle_identifiers": [
-                      "^com\\.jetbrains\\.intellij$"
+                      "^com\\.jetbrains\\.WebStorm$"
                     ],
-                    "type": "frontmost_application_unless"
+                    "type": "frontmost_application_if"
                   }
                 ],
                 "from": {
